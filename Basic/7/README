@@ -4,6 +4,12 @@ in an obscurely named file saved in this very directory.
 In other unrelated news, Sam has set up a script that returns the output 
 from the UNIX cal command.
 
+KNOWELDGE:
+Knowing something about UNIX or Linux and it's command line. Searching 
+in google for bash or terminal and trying Ubuntu may help. If you had a 
+look to PHP may help you know how would you implement the cal command 
+script and it could give you a clue of what you did wrong.
+
 SOLUTION:
 So the password file is in the actual directory... And no, it's name it 
 is not in the form.

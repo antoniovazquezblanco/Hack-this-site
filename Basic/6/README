@@ -2,6 +2,9 @@ README:
 Network Security Sam has encrypted his password. The encryption system 
 is publically available.
 
+KNOWELDGE:
+This requires some logic.
+
 SOLUTION:
 I've got the encrypted password so I only need to undone that. Lets 
 analyze the encryption. The first thing is that if I put 1 char it 
