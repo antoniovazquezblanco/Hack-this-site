@@ -1,0 +1,24 @@
+README:
+Message: Hey man, I need a big favour from you. Remember that website I 
+showed you once before? Uncle Arnold's Band Review Page? Well, a long 
+time ago I made a $500 bet with a friend that my band would be at the 
+top of the list by the end of the year. Well, as you already know, two 
+of my band members have died in a horrendous car accident... but this 
+ass hole still insists that the bet is on!
+I know you're good with computers and stuff, so I was wondering, is 
+there any way for you to hack this website and make my band on the top 
+of the list? My band is Raging Inferno. Thanks a lot, man!
+
+KNOWELDGE:
+Some HTML what a form is and how PHP will manage form data.
+
+SOLUTION:
+Let's find "Raging Inferno". It has a form just below that lets you 
+select a value from one to five and send it. I think this is used to 
+calculate a mean value that is used to select the order of the list. If 
+this is correct the maximum value must be 5, so if they are in the worst 
+case they would get a 0. They may become the best band if we can send a 
+high value. This can be done by altering the form. Just change the value 
+of one of the elements of the list and send the form. This should make 
+them become the first in the list. If you don't know how to change the 
+value just search for Firebug in Google.
