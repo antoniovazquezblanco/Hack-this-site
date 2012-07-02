@@ -1,0 +1,19 @@
+README:
+Message: I have been informed that you have quite admirable hacking skills. 
+Well, this racist hate group is using their website to organize a mass 
+gathering of ignorant racist bastards. We cannot allow such bigoted aggression 
+to happen. If you can gain access to their administrator page and post messages 
+to their main page, we would be eternally grateful.
+
+KNOWELDGE:
+HTML is always a must. Learning that you can extract a lot of information from 
+the contents of a webpage. Something about SQL and how a loging is implemented 
+in PHP and how can you bypass one.
+
+SOLUTION:
+The clue is that there's an admin panel, the question is where is it. After 
+searching a bit I found a link to an "update.php" file. When I open the file I 
+can see a login form. After trying multiple SQL injection options I remembered 
+there were usernames in the posts published in the first page so I decided to 
+try SQL injection with the user "WhiteKing" and I found a valid match in 
+"' OR '1'='1".
