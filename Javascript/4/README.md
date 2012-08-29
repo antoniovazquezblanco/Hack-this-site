@@ -27,4 +27,4 @@ function check(x)
 	}
 }
 ```
-The first line in this function is unuseful. If you have a look to the second line you'll notice that the password is compared to ""+RawrRawr+"". "" is nothing so ""+RawrRawr+"" is the same as RawrRawr. The only question is, what is the value of RawrRawr? You can do it in two ways. Search for this in source or use a Javascript console for getting it's value with "alert(RawrRawr);".
+The first line in this function is unuseful. If you have a look to the second line you'll notice that the password is compared to ""+RawrRawr+"". "" is nothing so ""+RawrRawr+"" is the same as RawrRawr. The only question is, what is the value of RawrRawr? You can do it in two ways. Search for this in source or use a Javascript console for getting it's value with "alert(RawrRawr);". For me the value is "moo".
