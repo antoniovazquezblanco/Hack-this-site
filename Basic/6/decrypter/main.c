@@ -21,6 +21,11 @@ int main(int argc, char **argv)
 	encrypted = argv[1];
 	len = strlen(encrypted);
 	decrypted = (char *)calloc(len, sizeof(char));
+	if(decrypted == NULL)
+	{
+		fprintf(stderr, "[!] Could not allocate memory...\n");
+		return 2;
+	}
 
 	/* Decrypt password... */
 	for(i = 0; i < len; i++)
